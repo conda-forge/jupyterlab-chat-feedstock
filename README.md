@@ -17,11 +17,10 @@ Current build status
 ====================
 
 
-<table><tr><td>All platforms:</td>
+<table><tr>
+    <td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=26559&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jupyterlab-chat-feedstock?branchName=main">
-      </a>
+      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
     </td>
   </tr>
 </table>
@@ -150,7 +149,4 @@ Feedstock Maintainers
 * [@brichet](https://github.com/brichet/)
 * [@dlqqq](https://github.com/dlqqq/)
 * [@jtpio](https://github.com/jtpio/)
-
-
-<!-- dummy commit to enable rerendering -->
 
