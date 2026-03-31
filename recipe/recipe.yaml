@@ -1,5 +1,5 @@
 context:
-  version: "0.20.0"
+  version: "0.21.0"
   python_min: "3.9"
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/j/jupyterlab-chat/jupyterlab_chat-${{ version }}.tar.gz
-    sha256: 83a9e5e8850597fd9a7937e9ad73868b79f6529adea103c9969cd1375d605c85
+    sha256: 7077f316c60e6cc6ef8efe27dafae6f88cfcbbcbc0f596e5bacdc839c03d7967
 
 build:
   script: ${{ PYTHON }} -m pip install .  --no-deps -vv --no-build-isolation --ignore-installed --no-index
