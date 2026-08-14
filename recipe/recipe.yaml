@@ -1,6 +1,5 @@
 context:
   version: "0.23.2"
-  python_min: "3.10"
 
 package:
   name: jupyterlab-chat
@@ -31,7 +30,9 @@ requirements:
 
 tests:
   - python:
-      python_version: ${{ python_min }}.*
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
       pip_check: true
       imports: jupyterlab_chat
   - script:
