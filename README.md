@@ -37,10 +37,10 @@ Current release info
 Installing jupyterlab-chat
 ==========================
 
-Installing `jupyterlab-chat` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `jupyterlab-chat` from the `conda-forge/label/jupyterlab-chat_dev` channel can be achieved by adding `conda-forge/label/jupyterlab-chat_dev` to your channels with:
 
 ```
-conda config --add channels conda-forge
+conda config --add channels conda-forge/label/jupyterlab-chat_dev
 conda config --set channel_priority strict
 ```
 
@@ -86,7 +86,7 @@ It is possible to list all of the versions of `jupyterlab-chat` available on you
 <summary>With conda</summary>
 
 ```
-conda search jupyterlab-chat --channel conda-forge
+conda search jupyterlab-chat --channel conda-forge/label/jupyterlab-chat_dev
 ```
 
 </details>
@@ -95,7 +95,7 @@ conda search jupyterlab-chat --channel conda-forge
 <summary>With mamba</summary>
 
 ```
-mamba search jupyterlab-chat --channel conda-forge
+mamba search jupyterlab-chat --channel conda-forge/label/jupyterlab-chat_dev
 ```
 
 </details>
@@ -104,7 +104,7 @@ mamba search jupyterlab-chat --channel conda-forge
 <summary>With pixi</summary>
 
 ```
-pixi search jupyterlab-chat --channel conda-forge
+pixi search jupyterlab-chat --channel conda-forge/label/jupyterlab-chat_dev
 ```
 
 </details>
@@ -114,13 +114,13 @@ pixi search jupyterlab-chat --channel conda-forge
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search jupyterlab-chat --channel conda-forge
+mamba repoquery search jupyterlab-chat --channel conda-forge/label/jupyterlab-chat_dev
 
 # List packages depending on `jupyterlab-chat`:
-mamba repoquery whoneeds jupyterlab-chat --channel conda-forge
+mamba repoquery whoneeds jupyterlab-chat --channel conda-forge/label/jupyterlab-chat_dev
 
 # List dependencies of `jupyterlab-chat`:
-mamba repoquery depends jupyterlab-chat --channel conda-forge
+mamba repoquery depends jupyterlab-chat --channel conda-forge/label/jupyterlab-chat_dev
 ```
 
 </details>
