@@ -1,0 +1,3 @@
+channel_targets:
+  - conda-forge jupyter-ai_rc
+  - conda-forge jupyterlab-chat_rc
