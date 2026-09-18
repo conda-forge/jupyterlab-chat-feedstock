@@ -196,6 +196,3 @@ Feedstock Maintainers
 * [@dlqqq](https://github.com/dlqqq/)
 * [@jtpio](https://github.com/jtpio/)
 
-
-<!-- dummy commit to enable rerendering -->
-
