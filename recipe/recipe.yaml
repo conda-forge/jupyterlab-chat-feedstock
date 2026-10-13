@@ -1,5 +1,5 @@
 context:
-  version: "0.25.1"
+  version: "0.25.2"
 
 package:
   name: jupyterlab-chat
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/j/jupyterlab-chat/jupyterlab_chat-${{ version }}.tar.gz
-    sha256: d68d5018166073553a3721b962c293d96afe4678812c8e8566dd1b8640cf65c6
+    sha256: 657fa110452e3c5e838c117213ddf6d9934dc73a75f0c39fbaf3e44ee6e738db
 
 build:
   script: ${{ PYTHON }} -m pip install .  --no-deps -vv --no-build-isolation --ignore-installed --no-index
